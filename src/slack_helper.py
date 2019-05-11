@@ -17,7 +17,7 @@ def find_channel(name):
   if name in CHANNEL_CACHE:
     return CHANNEL_CACHE[name]
 
-  r = sc.api_call("channels.list", exclude_archived=1)
+  r = sc.api_call("conversations.list", exclude_archived=1, types="public_channel,private_channel")
   if 'error' in r:
     logger.error("error: {}".format(r['error']))
   else:
@@ -29,7 +29,7 @@ def find_channel(name):
   return None
 
 def find_msg(ch):
-  return sc.api_call('channels.history', channel=ch)  
+  return sc.api_call('conversations.history', channel=ch)
 
 def find_my_messages(ch_name, user_name=SLACK_BOT_NAME):
   ch_id = find_channel(ch_name)
