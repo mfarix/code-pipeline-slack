@@ -10,9 +10,9 @@ We attempt to provide a unified summary, by pulling together multiple events, as
 
 ## Launch
 
-| us-east-1 | us-west-2 |
-| --------- | --------- |
-| [![Launch](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=CodePipelineSlackNotifier&templateURL=https://s3.amazonaws.com/code-pipeline-slack-us-east-1/template.yml) | [![Launch](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=CodePipelineSlackNotifier&templateURL=https://s3-us-west-2.amazonaws.com/code-pipeline-slack-us-west-2/template.yml) |
+| ap-southeast-1 |
+| --------- |
+| [![Launch](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-1#/stacks/new?stackName=CodePipelineSlackNotifier&templateURL=https://s3-ap-southeast-1.amazonaws.com/cf-templates-1w86daq2xw256-ap-southeast-1/2019132rqd-template127jlnlwpsyk) |
 
 
 ## Configuration / Customization
