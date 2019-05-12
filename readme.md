@@ -12,7 +12,7 @@ We attempt to provide a unified summary, by pulling together multiple events, as
 
 | ap-southeast-1 |
 | --------- |
-| [![Launch](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-1#/stacks/new?stackName=CodePipelineSlackNotifier&templateURL=https://s3-ap-southeast-1.amazonaws.com/cf-templates-1w86daq2xw256-ap-southeast-1/2019132rqd-template127jlnlwpsyk) |
+| [![Launch](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-1#/stacks/new?stackName=CodePipelineSlackNotifier&templateURL=https://s3-ap-southeast-1.amazonaws.com/fariz-cloudformation/code-pipeline-slack-template.yml) |
 
 
 ## Configuration / Customization
